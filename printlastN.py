@@ -1,4 +1,4 @@
-str1=input()
-k=int(input())
+str1,k=map(str,input().split())
+k=int(k)
 start=len(str1)-k
-print(str[start::])
+print(str1[start::])
