@@ -1,4 +1,4 @@
-str1=input("Enter a string")
-k=int(input("enter no.of characters to be printed"))
+str1=input()
+k=int(input())
 start=len(str1)-k
 print(str[start::])
