@@ -1,3 +1,2 @@
-n=input("Enter a number")
-k=input("Enter another number")
-print(int(n+k))
+n,k=input().split()
+print(n+k)
